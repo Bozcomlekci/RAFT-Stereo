@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from core.update import BasicMultiUpdateBlock
-from core.extractor import BasicEncoder, MultiBasicEncoder, ResidualBlock
-from core.corr import CorrBlock1D, PytorchAlternateCorrBlock1D, CorrBlockFast1D, AlternateCorrBlock
-from core.utils.utils import coords_grid, upflow8
+from raftstereo.core.update import BasicMultiUpdateBlock
+from raftstereo.core.extractor import BasicEncoder, MultiBasicEncoder, ResidualBlock
+from raftstereo.core.corr import CorrBlock1D, PytorchAlternateCorrBlock1D, CorrBlockFast1D, AlternateCorrBlock
+from raftstereo.core.utils.utils import coords_grid, upflow8
 
 
 try:
